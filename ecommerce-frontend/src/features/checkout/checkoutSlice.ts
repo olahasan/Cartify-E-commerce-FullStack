@@ -7,7 +7,7 @@ import {
   type TCreateOrderRequest,
 } from "./checkoutAPI";
 import type { RootState } from "@app/store/store";
-import { loadStripe } from "@stripe/stripe-js";
+import { loadStripe, type StripeCardElement } from "@stripe/stripe-js";
 import { CardElement } from "@stripe/react-stripe-js";
 
 export const GetUserCheckoutThunk = createAsyncThunk<
@@ -50,7 +50,7 @@ export const PlaceOrderThunk = createAsyncThunk<
     if (!stripe) throw new Error("Stripe failed to load");
     const result = await stripe.confirmCardPayment(clientSecret, {
       payment_method: {
-        card: CardElement,
+        card: CardElement as unknown as StripeCardElement,
       },
     });
     if (result.error) {
