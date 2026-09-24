@@ -1,0 +1,57 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+appsettings.Development.json
+**/Properties/PublishProfiles/*.pubxml
+**/Properties/PublishProfiles/*.pubxml.user
+
+# =========================
+# Frontend - Node / Vite
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Backend - .NET
+# =========================
+bin/
+obj/
+.vs/
+
+# =========================
+# Test / Coverage
+# =========================
+coverage/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.ntvs*
+*.njsproj
+*.swp
+
+# =========================
+# Local database exports
+# =========================
+EcommerceDB_Data.sql
+*.bak
+*.bacpac

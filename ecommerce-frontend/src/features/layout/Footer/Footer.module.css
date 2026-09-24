@@ -1,0 +1,100 @@
+.footerContainer {
+  border-top: 1px solid black;
+  margin-top: auto;
+}
+
+.footer {
+  background-color: #19283f;
+}
+.footer .copyright > a {
+  text-decoration: none;
+}
+.footer .copyright > a > span {
+  color: #33d1cc;
+  cursor: pointer;
+}
+.footer .copyright > div > a {
+  text-decoration: none;
+}
+.footer .copyright > div > a > span {
+  color: #ffc400;
+  cursor: pointer;
+}
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .links ul {
+  background-color: transparent;
+  position: relative;
+}
+.footer .icons ul {
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+  .links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 44px;
+    padding-right: 31px;
+  }
+}
+
+ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff80;
+}
+.mainBtn {
+  background-color: hsl(182.87deg 69.29% 47.25%);
+  color: #ffc400;
+  padding: 0.5rem 1rem;
+  transition: 0.3s;
+}
+.mainBtn:hover {
+  background-color: #ff3150;
+  color: white;
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+  font-size: 15px;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+  font-size: 15px;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+  font-size: 15px;
+}
+.footer .youtube {
+  background-color: #ff0000;
+  font-size: 15px;
+}
+
+ul li svg {
+  transition: 0.3s;
+}
+ul li:hover svg {
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(25.5);
+}

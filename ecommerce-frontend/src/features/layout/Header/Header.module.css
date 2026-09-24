@@ -1,0 +1,97 @@
+.headerTopPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+  color: inherit;
+}
+.imgs {
+  display: flex;
+}
+.betweenIcons {
+  width: 2px;
+  height: 23px;
+  background-color: #5a5a5a;
+  margin: 0 4px 0 1px;
+  position: relative;
+  top: 22px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+input {
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid rgb(194, 187, 187);
+  caret-color: rgb(0, 255, 255);
+  padding: 0 7px;
+  height: 30px;
+  margin-top: 6px;
+  width: 230px;
+}
+
+input::placeholder {
+  color: rgb(189, 185, 185);
+  font-size: 12px;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+@media (max-width: 992px) {
+  input {
+    margin-top: 0px;
+    margin-bottom: 6px;
+  }
+}
+.searchContainer {
+  position: relative;
+  display: inline-block;
+}
+.suggestionsDropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  width: 100%;
+
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+
+  z-index: 1000;
+
+  max-height: 300px;
+  overflow-y: auto;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.suggestionItem {
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.suggestionItem:hover {
+  background: #f5f5f5;
+  border-radius: 8px;
+}

@@ -1,0 +1,39 @@
+.ready {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: aqua;
+  margin-top: 60px;
+}
+
+.ready button {
+  border-radius: 7px;
+  color: #502050;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #dc54ff99;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.ready button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #dc54ff99;
+  transition: 0.3s;
+}
+.ready button:hover::before {
+  width: 100%;
+}

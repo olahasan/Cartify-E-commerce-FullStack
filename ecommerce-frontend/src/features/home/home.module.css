@@ -1,0 +1,29 @@
+.title3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+.title3 span {
+  color: orangered;
+}
+
+.right {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 20px;
+  width: fit-content;
+  position: relative;
+}
+
+.FashionCategoryCarouselContainer {
+  background-color: aliceblue;
+  padding: 10px 26px;
+}
+
+.HomeCategoriesCarousel {
+  display: flex;
+  gap: 23px;
+  overflow: hidden;
+  width: 100%;
+}

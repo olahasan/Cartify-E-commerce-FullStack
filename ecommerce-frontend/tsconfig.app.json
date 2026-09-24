@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    /*Types*/
+    "types": ["vite-plugin-svgr/client"],
+
+    /*Paths*/
+    "baseUrl": ".",
+    "paths": {
+      "@router/*": ["src/app/routes/*"],
+      "@app/*": ["src/app/*"],
+      "@config/*": ["src/config/*"],
+      "@assets/*": ["src/assets/*"],
+      "@cart/*": ["src/features/cart/*"],
+      "@home/*": ["src/features/home/*"],
+      "@layout": ["src/features/layout/index.ts"],
+      "@layout/*": ["src/features/layout/*"],
+      "@wishlist/*": ["src/features/wishlist/*"],
+      "@profile/*": ["src/features/profile/*"],
+      "@search/*": ["src/features/search/*"],
+      "@checkout/*": ["src/features/checkout/*"],
+      "@promo/*": ["src/features/promo/*"],
+
+      "@about_us/*": ["src/features/about_us/*"],
+      "@categories/*": ["src/features/categories/*"],
+      "@products/*": ["src/features/products/*"],
+      "@auth/*": ["src/features/auth/*"],
+      "@blog/*": ["src/features/blog/*"],
+      "@contact_us/*": ["src/features/contact_us/*"],
+      "@swiper/*": ["src/features/swiper/*"],
+      "@shared/*": ["src/shared/*"],
+      "@utils/*": ["src/shared/utils/*"],
+      "@counter/*": ["src/features/Counter/*"],
+      "@privacy-policy/*": ["src/features/privacy_policy/*"],
+      "@terms-of-service/*": ["src/features/terms_of_service/*"]
+    },
+    // assets - cart - home - layout - wishlist
+
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,148 @@
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: blue;
+  border-radius: 50%;
+  padding: 22px;
+  transition: 0.3s;
+}
+
+.mySwiper .swiper-button-prev:after,
+.mySwiper .swiper-button-next:after {
+  font-size: 30px;
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+  color: #00ff00;
+  opacity: 100%;
+}
+
+.mySwiper {
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.mySwiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.carouselImage {
+  width: 10%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.mySwiper2 {
+  margin: 10px 0 50px 0;
+}
+
+.mySwiper2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper2 .swiper-button-next,
+.mySwiper2 .swiper-button-prev {
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+  background-color: blue;
+}
+.mySwiper2 .swiper-button-next {
+  right: 3px;
+}
+.mySwiper2 .swiper-button-prev {
+  left: 3px;
+}
+
+.mySwiper2 .swiper-button-prev:after,
+.mySwiper2 .swiper-button-next:after {
+  font-size: 10px;
+}
+
+.mySwiper2 .swiper-button-next:hover,
+.mySwiper2 .swiper-button-prev:hover {
+  color: #00ff00;
+  opacity: 100%;
+}
+
+.mySwiper2 .swiper-button-prev,
+.mySwiper2 .swiper-button-next {
+  z-index: 1000;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  pointer-events: none !important;
+}
+
+/* ////////////////////TopRatedCarouselmySwiper/////////////// */
+.TopRatedCarouselmySwiper .swiper-button-next,
+.TopRatedCarouselmySwiper .swiper-button-prev {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: blue;
+  border-radius: 50%;
+  padding: 22px;
+  transition: 0.3s;
+}
+
+.TopRatedCarouselmySwiper .swiper-button-prev:after,
+.TopRatedCarouselmySwiper .swiper-button-next:after {
+  font-size: 30px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: orangered;
+}
+
+/* ////////////////////////innerSwiper//////////////////////////// */
+
+.innerSwiper {
+  position: relative;
+}
+
+.innerSwiper:hover .swiper-button-next,
+.innerSwiper:hover .swiper-button-prev,
+.innerSwiper:hover .swiper-pagination {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* hidde bullets by default */
+.innerSwiper .swiper-pagination {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.innerSwiper .swiper-button-next,
+.innerSwiper .swiper-button-prev {
+  background-color: orangered;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  width: 20px !important;
+  height: 20px !important;
+  padding: 6px;
+}
+
+.innerSwiper .swiper-button-next:after,
+.innerSwiper .swiper-button-prev:after {
+  font-size: 10px;
+}
+
+.innerSwiper .swiper-button-next.swiper-button-disabled,
+.innerSwiper .swiper-button-prev.swiper-button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.innerSwiper .swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: orangered;
+}

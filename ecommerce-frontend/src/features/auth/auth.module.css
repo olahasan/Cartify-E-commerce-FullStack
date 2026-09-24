@@ -1,0 +1,19 @@
+.ForgetPasswordStyle {
+  color: #bb088e;
+  margin-left: 10px;
+}
+
+.errorStyle {
+  color: #bb088e;
+  margin-top: 10px;
+}
+
+.ForgotPasswordMessageStyle,
+.ResetPasswordMessageStyle {
+  color: green;
+}
+
+.paraStyle {
+  color: #35dc6d;
+  margin-top: 10px;
+}

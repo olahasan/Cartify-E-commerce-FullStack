@@ -1,0 +1,141 @@
+.iconContainer {
+  margin-top: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.basketQuantity {
+  position: absolute;
+  top: -20px;
+  left: 4px;
+  background-color: aqua;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.pumpCartQuantity {
+  animation: pumping 300ms ease-out;
+}
+
+@keyframes pumping {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(0.8);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d4d4d6;
+  animation: fadeIn 0.6s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.productStyle {
+  display: flex;
+}
+
+.productImg {
+  max-width: 160px;
+  width: 160px;
+}
+.productImg img {
+  height: 180px;
+  background-color: #f2f2f2;
+  display: block;
+}
+
+.productInfo {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: fit-content;
+  text-align: center;
+}
+
+.productStyle h2 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.productStyle h3 {
+  font-size: 13px;
+}
+
+.thePrice {
+  margin-top: 0;
+  margin-bottom: 4px;
+  background-color: #dee2e6a1;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-left: 11px;
+}
+
+.customFlex {
+  justify-content: flex-start;
+  transform: translate(13px, 11px);
+}
+
+.productInfo > button {
+  color: white;
+  width: 100px;
+}
+
+.productInfo span:last-child {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  transform: translate(16px, 179px);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.container span {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+}
+.btns {
+  margin-bottom: 0;
+}
+.btns button {
+  color: white;
+  margin-bottom: 10px;
+}
+.btns button:first-of-type {
+  margin-right: 10px;
+}
