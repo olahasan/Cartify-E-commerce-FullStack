@@ -3,7 +3,7 @@ import WishlistIcon from "@assets/svg/wishlist.svg?react";
 import { useNavigate } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 
-import styles from "./Wishlist.module.css";
+import styles from "./wishlist.module.css";
 import { Button, Modal } from "react-bootstrap";
 import { motion, AnimatePresence } from "framer-motion";
 import { useAppSelector } from "@app/hooks";
