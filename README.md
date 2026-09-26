@@ -15,6 +15,7 @@
 - [Configure Backend Settings](#3-configure-backend-settings)
 - [Install Frontend Dependencies](#6-install-frontend-dependencies)
 - [Local Development Setup](#local-development-setup)
+- [Demo / Screenshots](#Demo-Screenshots)
 - [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
 - [Test Payment](#test-payment)
@@ -5937,7 +5938,14 @@ The complete local environment can be summarized as:
 
 This setup allows the complete application to be developed and tested locally while keeping database credentials, authentication secrets, payment credentials, and email credentials outside the source code
 
-18. Demo / Screenshots
+## Demo / Screenshots
+
+### Live Demo
+
+Live Demo: [Cartify E-commerce](https://cartify-e-commerce-full-stack.vercel.app/)
+
+### Screenshots
+![Home Page](./docs/screenshots/Home.png)
 
 ## Test Payment
 
