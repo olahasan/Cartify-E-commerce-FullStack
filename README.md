@@ -5946,11 +5946,45 @@ Live Demo: [Cartify E-commerce](https://cartify-e-commerce-full-stack.vercel.app
 
 ### Screenshots
 
-#### 1) Home Page
+#### 1)Authentication
+
+##### Register 
+![Register](./docs/screenshots/Register.jpg)
+
+##### Login 
+![Login](./docs/screenshots/Login.jpg)
+
+#### 2) Home Page
 ![Home Page](./docs/screenshots/Home.png)
 
-#### 2) Product-Details
+#### 3) Product Details
 ![Product-Detail](./docs/screenshots/Product-Details.png)
+
+#### 4) Shopping Cart
+
+##### Empty-Shopping-Cart
+![Empty-Shopping-Cart](./docs/screenshots/Empty-Shopping-Cart.jpg)
+
+##### Shopping-Cart
+![Shopping-Cart](./docs/screenshots/Shopping-Cart.jpg)
+
+#### 5) Checkout
+![Checkout](./docs/screenshots/Checkout.png)
+
+#### 6) Order Success
+![Order-Success](./docs/screenshots/Order-Success.png)
+
+#### 7) Orders
+![Orders](./docs/screenshots/Orders.png)
+
+#### 8) Profile
+![Profile](./docs/screenshots/Profile.png)
+
+#### 9) Product-Browsing
+![Product-Browsing](./docs/screenshots/Product-Browsing.png)
+
+#### 10) Product-Details
+![Product-Details](./docs/screenshots/Product-Details.png)
 
 
 ## Test Payment
