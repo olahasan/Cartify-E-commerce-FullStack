@@ -5945,7 +5945,13 @@ This setup allows the complete application to be developed and tested locally wh
 Live Demo: [Cartify E-commerce](https://cartify-e-commerce-full-stack.vercel.app/)
 
 ### Screenshots
+
+#### 1) Home Page
 ![Home Page](./docs/screenshots/Home.png)
+
+#### 2) Product-Details
+![Product-Detail](./docs/screenshots/Product-Details.png)
+
 
 ## Test Payment
 
