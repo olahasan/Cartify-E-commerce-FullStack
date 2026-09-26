@@ -15,7 +15,7 @@
 - [Configure Backend Settings](#3-configure-backend-settings)
 - [Install Frontend Dependencies](#6-install-frontend-dependencies)
 - [Local Development Setup](#local-development-setup)
-- [Demo / Screenshots](#Demo-Screenshots)
+- [Demo / Screenshots](#Demo--Screenshots)
 - [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
 - [Test Payment](#test-payment)
