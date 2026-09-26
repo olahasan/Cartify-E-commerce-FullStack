@@ -5957,10 +5957,7 @@ Live Demo: [Cartify E-commerce](https://cartify-e-commerce-full-stack.vercel.app
 #### 2) Home Page
 ![Home Page](./docs/screenshots/Home.png)
 
-#### 3) Product Details
-![Product-Detail](./docs/screenshots/Product-Details.png)
-
-#### 4) Shopping Cart
+#### 3) Shopping Cart
 
 ##### Empty-Shopping-Cart
 ![Empty-Shopping-Cart](./docs/screenshots/Empty-Shopping-Cart.jpg)
@@ -5968,17 +5965,20 @@ Live Demo: [Cartify E-commerce](https://cartify-e-commerce-full-stack.vercel.app
 ##### Shopping-Cart
 ![Shopping-Cart](./docs/screenshots/Shopping-Cart.jpg)
 
-#### 5) Checkout
+#### 4) Checkout
 ![Checkout](./docs/screenshots/Checkout.png)
 
-#### 6) Order Success
+#### 5) Order Success
 ![Order-Success](./docs/screenshots/Order-Success.png)
 
-#### 7) Orders
+#### 6) Orders
 ![Orders](./docs/screenshots/Orders.png)
 
-#### 8) Profile
+#### 7) Profile
 ![Profile](./docs/screenshots/Profile.png)
+
+#### 8) Wishlist
+![Wishlist](./docs/screenshots/Wishlist.jpg)
 
 #### 9) Product-Browsing
 ![Product-Browsing](./docs/screenshots/Product-Browsing.png)
