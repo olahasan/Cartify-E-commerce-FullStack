@@ -80,6 +80,8 @@ const ProductCard = ({
   }, [isBtnDisabled]);
 
   const addToCartHandler = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    console.log("ADD TO CART CLICK", productID);
+
     if (!token) {
       setShowLoginRequired(true);
       return;
