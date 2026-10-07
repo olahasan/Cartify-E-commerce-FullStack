@@ -80,8 +80,6 @@ const ProductCard = ({
   }, [isBtnDisabled]);
 
   const addToCartHandler = async (e: React.MouseEvent<HTMLButtonElement>) => {
-    console.log("ADD TO CART CLICK", productID);
-
     if (!token) {
       setShowLoginRequired(true);
       return;
@@ -94,7 +92,6 @@ const ProductCard = ({
       await dispatch(GetCartItemsByUserID());
       await dispatch(GetCartSummary());
     }
-    setIsBtnDisabled(true);
   };
 
   const likeToggleHandler = async (e: React.MouseEvent<HTMLDivElement>) => {
