@@ -15,6 +15,7 @@
 - [Configure Backend Settings](#3-configure-backend-settings)
 - [Install Frontend Dependencies](#6-install-frontend-dependencies)
 - [Local Development Setup](#local-development-setup)
+- [Demo / Screenshots](#Demo--Screenshots)
 - [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
 - [Test Payment](#test-payment)
@@ -5937,7 +5938,54 @@ The complete local environment can be summarized as:
 
 This setup allows the complete application to be developed and tested locally while keeping database credentials, authentication secrets, payment credentials, and email credentials outside the source code
 
-18. Demo / Screenshots
+## Demo / Screenshots
+
+### Live Demo
+
+Live Demo: [Cartify E-commerce](https://cartify-e-commerce-full-stack.vercel.app/)
+
+### Screenshots
+
+#### 1)Authentication
+
+##### Register 
+![Register](./docs/screenshots/Register.jpg)
+
+##### Login 
+![Login](./docs/screenshots/Login.jpg)
+
+#### 2) Home Page
+![Home Page](./docs/screenshots/Home.png)
+
+#### 3) Shopping Cart
+
+##### Empty-Shopping-Cart
+![Empty-Shopping-Cart](./docs/screenshots/Empty-Shopping-Cart.jpg)
+
+##### Shopping-Cart
+![Shopping-Cart](./docs/screenshots/Shopping-Cart.jpg)
+
+#### 4) Checkout
+![Checkout](./docs/screenshots/Checkout.png)
+
+#### 5) Order Success
+![Order-Success](./docs/screenshots/Order-Success.png)
+
+#### 6) Orders
+![Orders](./docs/screenshots/Orders.png)
+
+#### 7) Profile
+![Profile](./docs/screenshots/Profile.png)
+
+#### 8) Wishlist
+![Wishlist](./docs/screenshots/Wishlist.jpg)
+
+#### 9) Product-Browsing
+![Product-Browsing](./docs/screenshots/Product-Browsing.png)
+
+#### 10) Product-Details
+![Product-Details](./docs/screenshots/Product-Details.png)
+
 
 ## Test Payment
 
